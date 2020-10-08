@@ -70,6 +70,7 @@ extension CountryPickerViewController {
         
         tableView.sectionIndexBackgroundColor = .clear
         tableView.sectionIndexTrackingBackgroundColor = .clear
+        tableView.tintColor = UIColor.init(red: 56.0/255.0, green: 62.0/255.0, blue: 118.0/255.0, alpha: 1)
     }
     
     func prepareNavItem() {
